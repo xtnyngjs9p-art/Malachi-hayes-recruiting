@@ -264,50 +264,7 @@ footer { border-top:2px solid var(--orange); padding:24px 20px 40px; text-align:
   <div style="font-size:12px; color:var(--muted); text-align:center; margin-top:8px; letter-spacing:1px;">Tap to zoom</div>
 </div>
 
-<!-- STATS -->
-<div class="section" id="stats">
-  <div class="eyebrow">On The Court</div>
-  <div class="sec-title">STATS</div>
-  <div class="sec-line"></div>
-  <div class="tabs">
-    <button class="tab active" onclick="switchTab('varsity',this)">Varsity 25–26</button>
-    <button class="tab" onclick="switchTab('aau',this)">AAU Fall 25</button>
-  </div>
-  <div class="panel active" id="panel-varsity">
-    <div class="s-label">25–26 Season</div>
-    <div class="s-title">CHRISTIAN HERITAGE SCHOOL</div>
-    <div class="s-record">Starting PG · #5 · W6–L11</div>
-    <div class="srow"><div class="srow-name">Points</div><div class="srow-val big">9.0</div></div>
-    <div class="srow"><div class="srow-name">Rebounds</div><div class="srow-val">2.0</div></div>
-    <div class="srow"><div class="srow-name">Assists</div><div class="srow-val">1.0</div></div>
-    <div class="srow"><div class="srow-name">Steals</div><div class="srow-val">2.0</div></div>
-    <div class="srow"><div class="srow-name">Turnovers</div><div class="srow-val">2.0</div></div>
-    <div class="srow"><div class="srow-name">Efficiency</div><div class="srow-val">6</div></div>
-    <div class="pct-bars">
-      <div class="pct-row"><div class="pct-lbl">FG%</div><div class="pct-track"><div class="pct-fill" style="width:39%"></div></div><div class="pct-num">39%</div></div>
-      <div class="pct-row"><div class="pct-lbl">2PT%</div><div class="pct-track"><div class="pct-fill" style="width:43%"></div></div><div class="pct-num">43%</div></div>
-      <div class="pct-row"><div class="pct-lbl">3PT%</div><div class="pct-track"><div class="pct-fill" style="width:29%"></div></div><div class="pct-num">29%</div></div>
-      <div class="pct-row"><div class="pct-lbl">FT%</div><div class="pct-track"><div class="pct-fill" style="width:46%"></div></div><div class="pct-num">46%</div></div>
-    </div>
-  </div>
-  <div class="panel" id="panel-aau">
-    <div class="s-label">Fall 2025</div>
-    <div class="s-title">DTX BASKETBALL — HAYES</div>
-    <div class="s-record">Shooting Guard · #4 · W1–L6</div>
-    <div class="srow"><div class="srow-name">Points</div><div class="srow-val big">9.0</div></div>
-    <div class="srow"><div class="srow-name">Rebounds</div><div class="srow-val">3.0</div></div>
-    <div class="srow"><div class="srow-name">Steals</div><div class="srow-val">2.0</div></div>
-    <div class="srow"><div class="srow-name">Turnovers</div><div class="srow-val">2.0</div></div>
-    <div class="srow"><div class="srow-name">Off Rebounds</div><div class="srow-val">1.0</div></div>
-    <div class="srow"><div class="srow-name">Efficiency</div><div class="srow-val">8</div></div>
-    <div class="pct-bars">
-      <div class="pct-row"><div class="pct-lbl">FG%</div><div class="pct-track"><div class="pct-fill" style="width:46%"></div></div><div class="pct-num">46%</div></div>
-      <div class="pct-row"><div class="pct-lbl">2PT%</div><div class="pct-track"><div class="pct-fill" style="width:48%"></div></div><div class="pct-num">48%</div></div>
-      <div class="pct-row"><div class="pct-lbl">3PT%</div><div class="pct-track"><div class="pct-fill" style="width:36%"></div></div><div class="pct-num">36%</div></div>
-      <div class="pct-row"><div class="pct-lbl">FT%</div><div class="pct-track"><div class="pct-fill" style="width:40%"></div></div><div class="pct-num">40%</div></div>
-    </div>
-  </div>
-</div>
+
 
 <!-- FILM -->
 <div class="section" id="film">
@@ -328,14 +285,31 @@ footer { border-top:2px solid var(--orange); padding:24px 20px 40px; text-align:
   </div>
   <div style="font-size:10px; font-weight:700; letter-spacing:3px; color:var(--orange); text-transform:uppercase; margin-bottom:20px;">▶ 2025–26 Primary Highlight Reel</div>
 
-  <div class="flink" onclick="window.open('https://youtu.be/SZx6zlIhjSk','_blank')">
-    <div class="flink-icon">🎬</div>
-    <div><div class="flink-name">2025–26 Game Highlights</div><div class="flink-desc">Full game highlights · 2025–26 season</div></div>
+  <!-- Full Game Film -->
+  <div style="position:relative; width:100%; aspect-ratio:16/9; border-radius:6px; overflow:hidden; margin-bottom:16px;">
+    <iframe
+      src="https://www.youtube.com/embed/7Myf0JQCkNE"
+      title="Malachi Hayes Full Game Film"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+      style="position:absolute; top:0; left:0; width:100%; height:100%;">
+    </iframe>
   </div>
-  <div class="flink" onclick="window.open('https://youtu.be/fXdB-1U0o-g','_blank')">
-    <div class="flink-icon">⭐</div>
-    <div><div class="flink-name">DTX Tournament Film</div><div class="flink-desc">DTX Basketball tournament film</div></div>
+  <div style="font-size:10px; font-weight:700; letter-spacing:3px; color:var(--orange); text-transform:uppercase; margin-bottom:20px;">🎬 Full Game Film</div>
+
+  <!-- Additional Highlight Film -->
+  <div style="position:relative; width:100%; aspect-ratio:16/9; border-radius:6px; overflow:hidden; margin-bottom:16px;">
+    <iframe
+      src="https://www.youtube.com/embed/uVXgADPEytc"
+      title="Malachi Hayes Additional Highlights"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+      style="position:absolute; top:0; left:0; width:100%; height:100%;">
+    </iframe>
   </div>
+  <div style="font-size:10px; font-weight:700; letter-spacing:3px; color:var(--orange); text-transform:uppercase; margin-bottom:20px;">🎬 Additional Highlights</div>
 </div>
 
 <!-- PLAYER INFO -->
